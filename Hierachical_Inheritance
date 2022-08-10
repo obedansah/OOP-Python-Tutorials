@@ -1,0 +1,22 @@
+#Hierachical Inheritance
+class Base:
+    def Fun1(self):
+        print("Function 1")
+        
+class Derived1(Base):
+    def Fun2(self):
+        print("Fuction 2")
+        
+class Dervied2(Base):
+    def Func3(self):
+        print("Function 3")
+        
+D = Derived1()
+D1 = Dervied2()
+print("Derived 1 Info")
+D.Fun1()
+D.Fun2()
+print("Derived 2 info")
+D1.Fun1()
+D1.Func3()
+        

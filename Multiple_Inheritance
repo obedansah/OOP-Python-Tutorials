@@ -1,0 +1,19 @@
+
+class Base1:
+    def fun1(self):
+        print("Function 1")
+        
+class Base2:
+    def fun2(self):
+        print("Function 2")
+        
+class Derived(Base1 ,Base2):
+    def fun3(self):
+        print("Function 3")
+        
+D = Derived()
+D.fun1()
+D.fun2()
+D.fun3()
+
+        

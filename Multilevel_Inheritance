@@ -1,0 +1,17 @@
+class GrandBase:
+    def fun1(self):
+        print("Function 1")
+        
+class Base(GrandBase):
+    def fun2(self):
+        print("Function 2")
+        
+class Dervied(Base):
+    def fun3(self):
+        print("Function3")
+        
+D = Dervied()
+D.fun1()
+D.fun2()
+D.fun3()
+
