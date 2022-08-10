@@ -8,7 +8,7 @@ class Base(GrandBase):
         
 class Dervied(Base):
     def fun3(self):
-        print("Function3")
+        print("Function 3")
         
 D = Dervied()
 D.fun1()
